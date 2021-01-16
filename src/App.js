@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+// import HeadNav from "./Components/Navbar/NavbarElements.js";
+import HeadNav from "./Components/Navbar/index";
+// import { Button } from "react-bootstrap";
+// import "bootstrap/dist/css/bootstrap.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HeadNav />
+      <h1>Hello this is my start with no end</h1>
+      {/* <Button className="primary">Primary</Button> */}
+      <button className="btn btn-primary ">This</button>
     </div>
   );
 }
